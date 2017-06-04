@@ -1,0 +1,10 @@
+---
+applications:
+- name: SpringMVCHibernate
+  memory: 1024MB
+  instances: 1
+  host: SpringMVCHibernate
+  path: ./target/SpringMVCHibernate.war
+  services:
+  - mysqlservice
+ 
