@@ -6,5 +6,5 @@ applications:
   host: SpringMVCHibernate
   path: ./target/SpringMVCHibernate.war
   services:
-  - mysqlservice
+  - testsql
  
